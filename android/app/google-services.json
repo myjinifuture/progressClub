@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "884600393077",
+    "firebase_url": "https://progress-club-9b3ff.firebaseio.com",
+    "project_id": "progress-club-9b3ff",
+    "storage_bucket": "progress-club-9b3ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884600393077:android:485a6c02931bb521",
+        "android_client_info": {
+          "package_name": "com.itfuturz.progressclubsurat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884600393077-eoi8roahla5ugk205d3j1lsla6c1u9ce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaNDWmQzYoI66icvnv2EEHR8Tgiem78GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884600393077-eoi8roahla5ugk205d3j1lsla6c1u9ce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,157 @@
+name: progressclubsurat_new
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.18.0
+  percent_indicator: ^2.1.9
+  page_transition: ^1.1.7+6
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  flutter_staggered_animations: "^0.1.2"
+  share: ^0.6.5+4
+  avatar_glow: ^1.1.0
+  multi_image_picker: ^4.7.14
+  smooth_star_rating: ^1.0.4+2
+  table_calendar: ^1.2.3
+  flutter_swiper: ^1.1.6
+  custom_radio_button: ^0.0.3
+  dio: ^3.0.3
+  path_provider: ^1.2.0
+  fluttertoast: ^3.1.3
+  barcode_scan: ^2.0.1
+  flutter_typeahead: ^1.8.8
+  #  soundpool: ^0.5.3
+  file_picker: ^2.0.11
+  flutter_uploader: ^1.2.0
+  flutter_absolute_path: ^1.0.6
+  image_picker: ^0.6.7+12
+  file_utils: ^0.1.4
+  flutter_native_image: ^0.0.5+3
+  shared_preferences: ^0.5.3+4
+  url_launcher: ^5.1.6
+  # location: ^2.3.5
+  geocoder: ^0.2.1
+  geolocator: ^6.1.4
+  progress_dialog: ^1.2.0
+  http: ^0.12.0+2
+  get_version: ^0.2.0+1
+  xml2json: ^4.0.0
+  contacts_service: ^0.3.10
+  permission_handler: ^4.3.0
+  flare_flutter: ^1.7.3
+  #  flare_flutter: ^2.0.6
+
+  sqflite: ^1.1.7+3
+  flutter_webview_plugin: ^0.3.11
+  flutter_datetime_picker: any
+  awesome_loader: ^0.0.3
+  #  pdf_viewer_plugin: any
+  flutter_pdfview: ^1.0.4
+
+  dotted_border: ^1.0.5
+  flutter_cupertino_date_picker: ^1.0.26+2
+  flutter_rating_bar: ^2.0.0+2
+  pin_input_text_field: any
+  qr_flutter: ^3.2.0
+#  firebase_core: ^0.5.0
+  firebase_auth: ^0.16.0
+  firebase_analytics: any
+  firebase_messaging: ^5.1.6
+#  flare_flutter: ^2.0.6
+#  flare_dart: ^2.3.4
+#  meta: ^1.2.4
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/logo.jpg
+    - images/icon_redheart.png
+    - images/icon_call.png
+    - images/icn_earth.png
+    - images/social/chat.png
+    - images/social/mail.png
+    - images/social/noimageselected.png
+    - images/social/whatsapp.png
+    - images/icon_scanner.png
+    - images/icon_pdf.png
+    - images/icon_download1.png
+    - images/gallery.png
+    - images/icon_event.png
+    - images/icon_ask.png
+    - images/whatsapp.png
+    - images/plus.png
+    - images/icon_events.jpg
+    - images/icon_member.jpg
+    - images/icon_user.png
+    - images/google24.png
+    - images/line_chart.png
+    - images/verified_user.png
+    - images/aboutus.png
+    - images/ProgressClub.flr
+    - images/placeholder.png
+    - images/loading.gif
+    - images/addphoto.png
+    - images/facetoface.png
+    - images/missingbook.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+        - asset: fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: fonts/Montserrat-SemiBold.ttf
+          weight: 400
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
