@@ -23,7 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_svg: ^0.18.0
+  flutter_svg:
   percent_indicator: ^2.1.9
   page_transition: ^1.1.7+6
 
