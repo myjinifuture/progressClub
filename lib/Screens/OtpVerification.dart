@@ -267,7 +267,6 @@ class _OtpVerificationState extends State<OtpVerification> {
                           padding: const EdgeInsets.only(top: 20),
                           child: GestureDetector(
                             onTap: () {
-                              // Navigator.pushReplacementNamed(context, '/SignUp');
                             },
                             child: Container(
                               child: Column(
