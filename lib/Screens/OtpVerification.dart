@@ -265,46 +265,42 @@ class _OtpVerificationState extends State<OtpVerification> {
                         ),
                         Padding(
                           padding: const EdgeInsets.only(top: 20),
-                          child: GestureDetector(
-                            onTap: () {
-                            },
-                            child: Container(
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                crossAxisAlignment: CrossAxisAlignment.center,
-                                children: <Widget>[
-                                  Padding(
-                                    padding: EdgeInsets.only(top: 5),
-                                  ),
-                                  Text(
-                                    "Didn't Receive the Verification Code ?",
-                                    textAlign: TextAlign.center,
+                          child: Container(
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: <Widget>[
+                                Padding(
+                                  padding: EdgeInsets.only(top: 5),
+                                ),
+                                Text(
+                                  "Didn't Receive the Verification Code ?",
+                                  textAlign: TextAlign.center,
+                                  style: TextStyle(
+                                      fontSize: 12,
+                                      fontWeight: FontWeight.w600,
+                                      color: Colors.grey),
+                                ),
+                                Padding(
+                                  padding: EdgeInsets.only(top: 5),
+                                ),
+                                GestureDetector(
+                                  onTap: () {
+                                    if (!isLoading) {
+                                      sendOtpCode(memberMobile);
+                                    }
+                                  },
+                                  child: Text(
+                                    'RESEND CODE',
+                                    maxLines: 2,
+                                    softWrap: true,
                                     style: TextStyle(
                                         fontSize: 12,
                                         fontWeight: FontWeight.w600,
-                                        color: Colors.grey),
+                                        color: cnst.appPrimaryMaterialColor),
                                   ),
-                                  Padding(
-                                    padding: EdgeInsets.only(top: 5),
-                                  ),
-                                  GestureDetector(
-                                    onTap: () {
-                                      if (!isLoading) {
-                                        sendOtpCode(memberMobile);
-                                      }
-                                    },
-                                    child: Text(
-                                      'RESEND CODE',
-                                      maxLines: 2,
-                                      softWrap: true,
-                                      style: TextStyle(
-                                          fontSize: 12,
-                                          fontWeight: FontWeight.w600,
-                                          color: cnst.appPrimaryMaterialColor),
-                                    ),
-                                  ),
-                                ],
-                              ),
+                                ),
+                              ],
                             ),
                           ),
                         ),
